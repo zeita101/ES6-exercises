@@ -20,8 +20,16 @@ console.log(...newArr);
 // Use the spread operator to build a final allFoods with the 
 // items from the two objects you just built
 
-favFood = { sushi: 'Rakuzen', fries: 'McDonalds', cheesecake: 'Costco' }
-friendFavFood = { pizza: '2 Bros', cake: 'Lords Bakery', potatoes: 'Loaded Potato' }
+favFood = { 
+  sushi: 'Rakuzen', 
+  fries: 'McDonalds', 
+  cheesecake: 'Costco' 
+}
+friendFavFood = { 
+  pizza: '2 Bros', 
+  cake: 'Lords Bakery', 
+  potatoes: 'Loaded Potato'
+}
 
 food = {...favFood, ...friendFavFood };
 console.log(food);
